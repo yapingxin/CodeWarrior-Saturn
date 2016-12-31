@@ -9,7 +9,7 @@ int main()
 	static char ctxt[] = "Display:";
 	static wchar_t wtxt[] = L"简体中文的世界。";
 
-	setlocale(LC_CTYPE, "chs");
+	setlocale(LC_CTYPE, "zh-CN");
 
 	printf("Display: %ls\n", wtxt);
     return 0;
