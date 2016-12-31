@@ -1,4 +1,4 @@
-// Localized-Display.cpp : Defines the entry point for the console application.
+ï»¿// Localized-Display.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
@@ -7,7 +7,7 @@
 int main()
 {
 	static char ctxt[] = "Display:";
-	static wchar_t wtxt[] = L"¼òÌåÖÐÎÄµÄÊÀ½ç¡£";
+	static wchar_t wtxt[] = L"ç®€ä½“ä¸­æ–‡çš„ä¸–ç•Œã€‚";
 
 	setlocale(LC_CTYPE, "chs");
 
