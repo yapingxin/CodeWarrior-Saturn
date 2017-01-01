@@ -11,7 +11,7 @@ int main()
 
 	setlocale(LC_CTYPE, "zh-CN");
 
-	printf("Display: %ls\n", wtxt);
+	printf("%s %ls\n", ctxt, wtxt);
     return 0;
 }
 
