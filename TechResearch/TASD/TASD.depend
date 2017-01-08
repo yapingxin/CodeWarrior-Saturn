@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1483882506 source:/home/yaping/GitBlog/CodeWarrior-Saturn/TechResearch/TASD/main.c
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<errno.h>
+	<unistd.h>
+	<syslog.h>
+	<string.h>
+
