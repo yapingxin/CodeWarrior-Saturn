@@ -8,6 +8,8 @@
 #include <syslog.h>
 #include <string.h>
 
+#include <syslog.h>
+
 int main()
 {
     /* Our process ID and Session ID */
@@ -49,9 +51,9 @@ int main()
     }
 
     /* Close out the standard file descriptors */
-    //close(STDIN_FILENO);
-    //close(STDOUT_FILENO);
-    //close(STDERR_FILENO);
+    close(STDIN_FILENO);
+    close(STDOUT_FILENO);
+    close(STDERR_FILENO);
 
     /* Daemon-specific initialization goes here */
 
